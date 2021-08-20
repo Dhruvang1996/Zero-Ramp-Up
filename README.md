@@ -6,7 +6,7 @@ If you like to clone the repo and install dependencies using ```npm i``` from th
    1) prepare the .env file for the server as per .env.example (eg. PORT = 4000). 
       Then write the url to connecting the MongoDb Atlas (eg. mongodb+srv://username:password@cluster0.hqqia.mongodb.net/Db_Name?retryWrites=true&w=majority).
    2) I used mongoose so you have to insert product using endpoint ('http://localhost:4000/product').
-
+   3) endpoint for creating user or order ('http://localhost:4000/order').
 Then, run the app in development mode using following command, but make sure run command from root directory:
 
 ```bash
