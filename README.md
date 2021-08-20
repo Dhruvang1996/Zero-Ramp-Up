@@ -1,7 +1,5 @@
 # Zero-Ramp-Up
 
-# web-app-recipes
-
 # Getting Started
 
 If you like to clone the repo and install dependencies using ```npm i``` from the root directory.
