@@ -1,0 +1,37 @@
+{
+  "name": "zero-ramp-up",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx nodemon --exec \" node -r dotenv/config \" index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dhruvang1996/Zero-Ramp-Up.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dhruvang1996/Zero-Ramp-Up/issues"
+  },
+  "homepage": "https://github.com/Dhruvang1996/Zero-Ramp-Up#readme",
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-mongo-sanitize": "^2.1.0",
+    "express-winston": "^4.1.0",
+    "mongoose": "^5.13.7",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.12",
+    "winston": "^3.3.3",
+    "winston-mongodb": "^5.0.7"
+  }
+}
